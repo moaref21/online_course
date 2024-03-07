@@ -57,10 +57,5 @@ Route::get('/homepage', [HomePageController::class, 'testimonials']);
 Route::get('/coursepage', [CoursesPageController::class, 'index']);
 Route::get('/courses', [CoursesPageController::class, 'showCourse']);
 
-// Route::get('test/video', [VideoController::class, 'index']);
-// Route::delete('/deleteimage/{id}',[CourseController::class,'deleteimage']);
-// Route::delete('/deleteimage/{id}',[CourseController::class,'deleteimage']);
-// Route::post('/test',[TestimonialsController::class,'store']);
-// Route::get('/test/create',[TestimonialsController::class,'create']);
 
 require __DIR__ . '/auth.php';
